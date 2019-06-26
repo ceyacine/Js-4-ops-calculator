@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Js calculator</title>   
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="disciption" content="JS calculator">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<h1>Calculator</h1>
+	<div class="form-container">
+		<form>
+			<label>Value 1: </label>
+			<input type="number" id="value1" autocomplete="off" required>
+			<label>Value 2: </label>
+			<input type="number" id="value2" autocomplete="off" required>
+			<label>result: </label>
+			<input type="number" id="result" readonly="readonly"><br><br>
+			<label>Operator:</label>
+			<select id="operator">
+				<option value="add">Add</option>
+				<option value="min">Minus</option>
+				<option value="div">Devide</option>
+				<option value="mul">multiply</option>
+			</select><br><br>
+			<button onclick="calculator()" type="button">Calculate</button>
+		</form>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

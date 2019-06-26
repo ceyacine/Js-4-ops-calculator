@@ -1,0 +1,83 @@
+body{
+	padding: 0px;  
+	font-family: 'Lato', sans-serif; 
+	margin: 0px;
+	box-sizing: border-box;
+}
+* {
+	box-sizing: border-box;
+}
+h1{
+	position: relative;
+	top: 50px;
+	text-align: center;
+	color: #0066ff;
+}
+.form-container{
+	border: 3px solid #0066ff;
+	width: 400px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+	left: 35%;
+	top: 50px;
+	height: 500px;
+}
+label{
+	position: relative;
+	top: 25px;
+}
+input{
+	color: #0066ff;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding: 10px;
+	select: none;
+	position: relative;
+	top: 25px;
+	width: 100%;
+	outline: none;
+	margin-top: 15px;
+	border: 2px solid #ccc;
+	margin-bottom: 15px;
+	transition-duration: 0.3s;
+}
+input:focus{
+	border: 2px solid #0066ff;
+}
+#result{
+	border: 2px solid #0066ff;
+	cursor: default;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+select{
+	position: relative;
+	top: 25px;
+	float: right;
+	padding: 10px;
+	width: 150px;
+	outline: none;
+	border: 2px solid #0066ff;
+	color: #0066ff;
+	font-weight: bold;
+}
+button{
+	border: 2px solid #0066ff;
+	width: 100%;
+	color: #0066ff;
+	cursor: pointer;
+	font-weight: bold;
+	position: relative;
+	top: 70px;
+	padding: 15px;	
+	background-color: #fff;
+	outline: none;
+	transition-duration: 0.3s;
+}
+button:hover{
+	background-color: #0066ff;
+	color: #fff;
+}
